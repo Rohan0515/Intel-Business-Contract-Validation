@@ -16,7 +16,7 @@ def test_detect_deviations():
     }
     
     deviations = detect_deviations(parsed_content, template)
-    assert len(deviations) == 0  # Assuming all parsed clauses match the template
+    assert len(deviations) == 0  
 
     parsed_content.append({'text': 'Unauthorized clause', 'label': 'other'})
     deviations = detect_deviations(parsed_content, template)
