@@ -1,0 +1,25 @@
+{
+    "name": "Standard Contract Template",
+    "structure": {
+        "agreement": ["agreement"],
+        "confidentiality": ["confidentiality"],
+        "party": ["party"],
+        "termination": ["termination"],
+        "liability": ["liability"],
+        "governing law": ["governing law"],
+        "jurisdiction": ["jurisdiction"],
+        "indemnity": ["indemnity"],
+        "warranty": ["warranty"],
+        "obligation": ["obligation"],
+        "payment": ["payment"],
+        "force majeure": ["force majeure"],
+        "amendment": ["amendment"],
+        "assignment": ["assignment"],
+        "severability": ["severability"],
+        "dispute resolution": ["dispute resolution"],
+        "arbitration": ["arbitration"],
+        "intellectual property": ["intellectual property"],
+        "limitation of liability": ["limitation of liability"],
+        "entire agreement": ["entire agreement"]
+    }
+}
