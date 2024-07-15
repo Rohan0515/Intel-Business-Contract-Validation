@@ -1,0 +1,7 @@
+Flask
+Flask-SQLAlchemy
+Flask-Cors
+pytesseract
+Pillow
+spacy
+en_core_web_sm
