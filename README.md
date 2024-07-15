@@ -2,7 +2,7 @@
 Business Contract Validation System
 This project aims to develop a system to parse business contracts, classify clauses, and detect deviations from templates. The project includes both backend and frontend components.
 
-# 🏗 Project Structur
+# 🏗 Project Structure
 Description: 
  Business contracts are legal documents. The first task is to parse these documents so that have a 
 structure to them. Determine the key details within the contract document. Every contract has clauses 
@@ -35,8 +35,8 @@ from that template and highlight them.
    ```
 2. **Set up the Backend:**
    ```sh
-cd backend
-```
+   cd backend
+   ```
 3. **Create a virtual environment and activate it:**
    - **Windows:**
      ```sh
@@ -56,17 +56,17 @@ cd backend
 5. **Initialise the database**
    ```sh
    flask db init
-flask db migrate
-flask db upgrade
-```
+   flask db migrate
+   flask db upgrade
+   ```
 6. **Run the backend server**
    ```sh
-python run.py
-```
+   python run.py
+   ```
 7. **Set up the frontend**
-```sh
-cd ../frontend
-npm install
-npm start
-```
+   ```sh
+   cd ../frontend
+   npm install
+   npm start
+   ```
 
