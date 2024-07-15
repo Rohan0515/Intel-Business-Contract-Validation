@@ -1,8 +1,8 @@
-# Intel-Business-Contract-Validation
+# 📄 Intel-Business-Contract-Validation
 Business Contract Validation System
 This project aims to develop a system to parse business contracts, classify clauses, and detect deviations from templates. The project includes both backend and frontend components.
 
-# Problem Statement
+# 🏗 Project Structur
 Description: 
  Business contracts are legal documents. The first task is to parse these documents so that have a 
 structure to them. Determine the key details within the contract document. Every contract has clauses 
@@ -30,9 +30,9 @@ from that template and highlight them.
 ### Steps
 1. **Clone the repository:**
    ```sh
-git clone https://github.com/your-repo/business-contract-validation.git
-cd business-contract-validation
-```
+   git clone https://github.com/your-repo/business-contract-validation.git
+   cd business-contract-validation
+   ```
 2. **Set up the Backend:**
    ```sh
 cd backend
