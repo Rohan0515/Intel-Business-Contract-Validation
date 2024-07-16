@@ -4,18 +4,14 @@ from models.nlp_model.nlp_model import nlp_model
 from models.classification_model.classification_model import classification_model
 
 def run_inference(contract_file, template_file):
-    # Parse the contract
     with open(contract_file, 'rb') as f:
         content = ocr_model(Image.open(f))
     
-    # Classify clauses
     parsed_content = nlp_model(content)
     
-    # Load the template
     with open(template_file, 'r') as f:
         template = json.load(f)
     
-    # Detect deviations
     deviations = classification_model(parsed_content, template["structure"])
     
     return deviations
